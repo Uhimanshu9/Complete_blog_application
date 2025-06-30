@@ -123,7 +123,7 @@ export class Service{
             return false
         }
     }
-
+    // for card preview
     getFilePreview(fileId){
         return this.bucket.getFilePreview(
             config.appwriteBucketId,
